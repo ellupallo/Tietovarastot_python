@@ -1,0 +1,9 @@
+Tietovarasto
+
+Aloita sql-kurssi
+- kuvakaappaus suorituksesta "Jannelle"
+Python - sql -yhteydet
+
+sql-trainer
+*********************************
+https://sqltrainer.withmooc.fi/#1
