@@ -7,6 +7,6 @@ from sqlite3 import Error
 ## . > nykyinen .. 2 ylöspäin
 
 try:
-    conn = sqlite3.connect("./databases/movies.db")
+    conn = sqlite3.connect("./databases/movies.db") # Tässä luotiin conn -muuttuja. Ottaa yhteyden annettuun fileeseen ja antaa sille nimen conn
 except Error as e:
     print(e)

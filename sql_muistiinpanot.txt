@@ -14,3 +14,7 @@ https://sqlitebrowser.org/dl/
 - valitaan alin
 - puretaan
 - ajetaan ohjelma exe, ei cypher
+
+
+https://docs.python.org/3/library/sqlite3.html
+-- sqlite -ohje ohje
