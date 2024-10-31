@@ -18,12 +18,10 @@ connection = db.conn # connection on vain nimi, joka annetaan fileelle
 
 # ***************************************************
 # !) CSV fileen luominen PANDAS >>>> KOKEILU.CSV
-with db.conn as connection:
-    # Execute the query and read the result into a DataFrame
-    df = pd.read_sql("SELECT title, popularity FROM movies WHERE popularity >= 20", connection) # parametriksi yhteys=connection perään
-    
-    # Save the DataFrame to a CSV file
-    df.to_csv('kokeilu.csv', index=False)
+# Execute the query and read the result into a DataFrame
+df = pd.read_sql("SELECT title, popularity FROM movies WHERE popularity >= 20", connection) # parametriksi yhteys=connection perään
+# Save the DataFrame to a CSV file
+df.to_csv('kokeilu.csv', index=False)
 
 
 # 2) CSV fileen luominen CSV >>>>> LEFFAT.CSV
