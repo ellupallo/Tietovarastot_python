@@ -17,4 +17,9 @@ https://sqlitebrowser.org/dl/
 
 
 https://docs.python.org/3/library/sqlite3.html
--- sqlite -ohje ohje
+--> sqlite -ohj
+
+
+https://www.w3schools.com/python/python_iterators.asp
+--> tästä osoitteesta apua myös
+--> iterointi on kevyempää kuin forloop
