@@ -65,11 +65,11 @@ cursor.execute("CREATE TABLE IF NOT EXISTS allemployees3 \
 us5002df = pd.read_csv("us-500.csv")
 
 # # Write movie data into table. Index, ottaako rivinumerot vai ei
-us5002df.to_sql("allemployees4", connection, if_exists="replace", index=True)
+us5002df.to_sql("allemployees3", connection, if_exists="replace", index=True)
 
 # from faker import Faker
 # fake = Faker()
 # print(fake.name())
 # print(fake.license_plate())
-# #connection.commit()
-# #connection.close()p
+connection.commit()
+connection.close()
