@@ -48,7 +48,7 @@ import pandas as pd
 # import sqlite_connection as db
 # connection = db.conn
 import sqlite3
-connection = sqlite3.connect("./databases/employees3.db") # connection voisi olla myös conn
+connection = sqlite3.connect("./databases/employees3.db")
 cursor = connection.cursor()
 
 # Create table with colums (only if table does not already exist) # """ multiline string alkuun ja loppuun
