@@ -16,5 +16,5 @@ def connect():
     except:
         print("no connection")
 
-connect()
+# connect()
 
