@@ -1,0 +1,19 @@
+import json
+
+# LOADS
+json_string = '{"hasChildren":false,"employees": null}'
+
+d = json.loads(json_string)
+
+print(d)
+print(type(d)) # false > False, null> None
+print(type(d)) # dict
+print(d["employees"]) # None
+
+# LOAD
+with open("5-chrisu_string.json", "r") as file:
+    chrisu_string_as_python = json.load(file)
+
+print(type(chrisu_string_as_python))
+print(chrisu_string_as_python)
+

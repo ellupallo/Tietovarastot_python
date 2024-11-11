@@ -1,0 +1,14 @@
+{
+    "cars": [
+        {
+            "brand": "Audi A2",
+            "registerPlate:": "AAA-111"
+        },
+        {
+            "brand": "Audi A3",
+            "registerPlate:": "AAA-112"
+        }
+    ],
+    "first_name": "Christian",
+    "is_teacher": true
+}
