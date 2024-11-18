@@ -1,0 +1,24 @@
+
+MongoDB ja salaukset -päivä
+
+Salaukset
+fernet ja bcrypt
+https://www.geeksforgeeks.org/fernet-symmetric-encryption-using-cryptography-module-in-python/
+Ajatus: salasanan sijaan tallennetaan kryptaus tai kryptaus ja hash. Ikäänkuin token luottokortin numeron sijaan,
+
+Muokkaa järjestelmän ympäristömuuttujia / käyttäjä ja systeemitasoiset (koneeen ominaisuudet) 
+
+
+Mitä on serialisointi
+https://hazelcast.com/glossary/serialization/
+json = JavaScript Object Notation
+bson = binary json
+
+ja "deserialisointi" --> takaisin luettavaan muotoon
+
+YRms3eXFl2uVXfe4
+
+Täällä osoitteessa Mongo:
+https://cloud.mongodb.com/v2/6731e2d131500112f9be5846#/overview
+
+connect -drivers antaa pythonille annettan osoitteen
